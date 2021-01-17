@@ -17,7 +17,7 @@ jobs:
           git config --local user.email "panlvzhi@foxmail.com"
           git config --local user.name "Dup4"
           git submodule foreach git pull origin main
-          git commit -m "Update Submodule"
+          git commit -m "Update Submodule" -a
       
       - name: Push changes
         uses: ad-m/github-push-action@master
