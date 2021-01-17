@@ -1,3 +1,6 @@
 [submodule "rating-webapp"]
 	path = rating-webapp
 	url = https://github.com/XCPCIO/XCPCIO-rating-webapp.git
+[submodule "rating-data"]
+	path = rating-data
+	url = https://github.com/XCPCIO/XCPCIO-rating-data.git
