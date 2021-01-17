@@ -17,7 +17,7 @@ jobs:
         run: |
           git config --local user.email "panlvzhi@foxmail.com"
           git config --local user.name "Dup4"
-          git submodule foreach git pull
+          git submodule update --recursive --remote
           git add .
           git commit -m "Update Submodule" -a
       
